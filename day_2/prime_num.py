@@ -6,4 +6,5 @@ def is_prime(n):
             return "Not Prime"
     return "Prime"
 
-print(is_prime(8))
+n = int(input("Enter a number : "))
+print(f'{n} is {is_prime(n)}')
